@@ -1,6 +1,5 @@
 from src.states.blogstate import BlogState
 
-
 class BlogNode:
     """"
     A Class to represent a blog node 

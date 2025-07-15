@@ -10,7 +10,6 @@ app = FastAPI()
 
 os.environ["LANGSMITH_API_KEY"]=os.getenv("LANGCHAIN_API_KEY")
 
-
 @app.post("/blogs")
 async def create_blogs(request: Request):
     data = await request.json()
